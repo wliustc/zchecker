@@ -1,6 +1,5 @@
 package me.jingw.zchecker;
 
-import javax.naming.spi.DirStateFactory.Result;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -23,7 +22,7 @@ public class ZGetter {
 
     public String getDeals(String URL) {
         // String deals = restTemplate.getForObject(URL, String.class);
-        Long ts = System.currentTimeMillis()
+        Long ts = System.currentTimeMillis();
         logger.info("Current TS", ts);
         // logger.info(deals);
         return "";

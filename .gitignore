@@ -7,3 +7,16 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+.project
+.classpath
+.settings/
+org.eclipse.core.resources.perfs
+org.eclipse.jdk.core.perfs
+org.eclipse.m2e.core.prefs
